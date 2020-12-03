@@ -1,0 +1,297 @@
+body{
+    margin:0;
+    padding:0;
+    background-color:#EDBB00;}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+#playerleft::-webkit-scrollbar-track, #playerright::-webkit-scrollbar-track{
+    background: #EDBB00;
+}
+
+#playerleft::-webkit-scrollbar-thumb, #playerright::-webkit-scrollbar-thumb{
+    background: #DB0030;
+}
+
+#playerleft::-webkit-scrollbar-thumb:hover, #playerright::-webkit-scrollbar-thumb:hover{
+    background: #EDBB00;
+}
+
+nav {
+    width:100wh;
+    Height:60px;
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(0,77,152);
+    font-family:   sans-serif;
+    font-weight: bold;
+   
+}
+
+nav ul {
+  
+    list-style: none;
+}
+
+nav ul li {
+    display:inline-block;
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+ a:active{
+    color: #DB0030;
+    text-decoration: none !important;
+}
+
+ a:visited{
+    color:#DB0030;
+    text-decoration: none !important;
+}
+
+a{
+    text-decoration: none;
+    color:#DB0030;
+}
+
+
+
+
+#banner{
+    width:100%;
+    height :500px;
+    display: flex;  
+    background-color: #EDBB00;;
+}
+
+#banner #left, #banner #right{
+    flex:1;
+    height: 460px;
+    
+    margin-left:10px;
+    margin-right:10px;
+    text-align: center;
+    padding :20px;
+    background-color: #EDBB00;;
+}
+
+#right p, #left p{
+    font-size: 19px;
+    line-height: 1;
+    
+}
+
+
+#banner #middle{
+    flex:2;
+    background-color: #DB0030;;
+}
+
+
+#banner img{
+    display: block;
+    padding: 20px 0;
+    margin: 0 auto;
+   
+   
+}
+
+
+ #secondbox{
+    width: 99.5%;
+    height: 450px;       
+    
+    display: flex;
+}
+
+ #secondbox div{
+    flex:1;
+    border:7px solid #EDBB00;;
+    text-align: center;  
+    margin:5px 20px;
+    overflow: hidden;
+    background-color:#DB0030 ;
+    padding: 50px;
+    color: rgb(4, 24, 44);
+    font-size: 19px;
+    
+ }  
+
+
+
+#paragraph{
+    color: blue !important; /* !important makes this one stick and not green(inline css*/
+    font-size: 40px;
+}
+
+/* player ccs goes here*/
+
+.playermainbox{
+    display: flex;
+ 
+}
+
+#playerleft,  #playerright{
+    flex: 25;
+    text-align: center;
+    font-size: 30px;
+    height:650px;
+    overflow-y: scroll;
+    
+}
+#playercenter{
+    flex:45;
+}
+
+#playercenter img{
+    width: 100%;
+}
+#playerheader{
+    margin: 10px;
+}
+
+#playerleft p, #playerright p{
+    margin-top: 0;
+}
+
+#playerright p {
+    text-align: left;
+    padding-left: 40px;
+}
+
+#playerptag{
+    color:rgb(0,77,152);
+    font-size: 50px;
+    margin-top: 150px !important;
+    margin-bottom: 4px;
+    text-align: center !important;
+
+}
+
+iframe{
+    margin: 30px auto 0px auto;
+    display: block;
+}
+
+#redbox{
+    background-color: #DB0030 !important;
+    width: 100%;
+    
+}
+
+/*roster */
+#roster {
+    background-color: rgb(44, 155, 44) !important;
+}
+
+#row1, #row2, #row3, #row4{
+    width: 100vw;
+    height:25vh;
+ /* detelet after done -------1------------*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#gk{
+   
+    height: 25vh;
+    width: 17%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+#gk img{
+    border: 4px outset #DB0030;
+    border-radius: 55px;
+    margin-top: 15px;
+    background-color: #EDBB00;
+    width: 180px;
+    height: 180px;
+    
+}
+
+#gk h3{
+    margin: 0;
+    color: rgb(0,77,152);
+}
+
+#def{
+   
+    height: 25vh;
+    width: 17%;
+    margin: 0px 2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+#def img{
+    border: 4px outset #DB0030;
+    border-radius: 55px;
+    margin-top: 15px;
+    background-color: #EDBB00;
+    width: 180px;
+    height: 180px;
+    
+}
+
+#def h3{
+    margin: 0;
+    color: rgb(0,77,152);
+}
+#mid{
+                             /* detelet after done --------2------*/
+    height: 25vh;
+    width: 17%;
+    margin: 0px 2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#mid img{
+    border: 4px outset #DB0030;
+    border-radius: 55px;
+    margin-top: 15px;
+    background-color: #EDBB00;
+    width: 180px;
+    height: 180px;
+    
+}
+
+#mid h3{
+    margin: 0;
+    color: rgb(0,77,152);
+}
+
+#att{
+                 /* detelet after done ------3------*/
+    height: 25vh;
+    width: 17%;
+    margin: 0px 10rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#att img{
+    border: 3px outset #DB0030;
+    border-radius: 55px !important;
+    margin-top: 15px;
+    background-color: #EDBB00;
+    width: 180px;
+    height: 180px;
+    
+}
+
+#att h3{
+    margin: 0;
+    color: rgb(0,77,152);
+}
